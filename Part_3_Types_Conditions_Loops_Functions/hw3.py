@@ -14,7 +14,7 @@ def is_leap_year(year: int) -> bool:
     :return: Значение високосности.
     :rtype: bool
     """
-    return bool(year) # Change this
+    return bool(year)  # Change this
 
 
 def extract_date(maybe_dt: str) -> tuple[int, int, int] | None:
